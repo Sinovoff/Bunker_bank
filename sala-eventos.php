@@ -25,36 +25,14 @@
 
 <body class="no-sidebar">
     <div id="page-wrapper">
-        <?/*
+
         <div id="header-wrapper">
 
             <div id="header" class="container">
-                <?//*** Menu superior ***
-				//include("menu-superior.php");
-				//***********************?>
-				<!-- Logo -->
-				<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="" width="100%"></a></h1>
-
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a href="inicio.html">Inicio</a></li>
-						<li><a href="sala-eventos.php">Sala Eventos</a></li>
-						<li class="break"><a href="">Reservas</a></li>
-						<li><a href="galeria.php">Galería</a></li>
-					</ul>
-				</nav>
-            </div>
-
-        </div>*/?>
-        <div id="header-wrapper">
-
-            <div id="header" class="container">
-                <?//*** Menu superior ***
+                <?php //*** Menu superior ***
                 include("menu-superior-eventos.php");
                 //***********************?>
             </div>
-
         </div>
 
         <div id="main-wrapper">
