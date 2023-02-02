@@ -97,8 +97,16 @@
 
 								<p class="preciototal">TOTAL: <strong><?echo $_POST['reservaprecio1']?> €</strong></p>
 
-								<p><label><input type="checkbox" name="terminos1" id="terminos1" value="ok" /> <a class="condiciones" href="avisos-legales.php" title="Condiciones" target="_blank">* He leído y acepto los avisos legales</a></label></p>
-								<!--<p><label><input type="checkbox" name="comunicaciones1" id="comunicaciones1" /> <a class="condiciones" href="comunicaciones.php" title="Comunicaciones" target="_blank"> Acepto en envío de futuras promociones o novedades</a></label></p> -->
+								<p><label><input type="checkbox" name="terminos1" id="terminos1" value="ok" required/> 
+								<a class="condiciones" href="avisos-legales.php" title="Condiciones" target="_blank" >
+									* He leído y acepto los avisos legales</a></label>
+								 </p>
+								<p><label><input type="checkbox" name="Autoriza" id="Autoriza" /> 
+									<a class="condiciones" href="comunicaciones.php" title="Comunicaciones" target="_blank">
+										 Acepto el envío de futuras promociones o novedades
+									</a>
+									</label>
+								</p>
 			
 								<p class="small derecha">* Campos obligatorios</p>
 

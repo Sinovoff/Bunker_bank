@@ -35,6 +35,7 @@ if ($_POST['OK']=="1"){
 	$reserva->telefono		= utf8_decode(addslashes($_POST['telefono']));	
 	$reserva->email			= utf8_decode(addslashes($_POST['email']));
 	$reserva->observaciones	= utf8_decode(addslashes($_POST['observaciones']));	
+	$reserva->Autoriza		= utf8_decode(addslashes($_POST['Autoriza']));	
 
 	$reserva->save();
 

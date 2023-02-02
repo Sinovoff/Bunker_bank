@@ -9,11 +9,12 @@ if (!$_SESSION['UID']) {
 
 //$WEBROOT="http://172.26.0.201/bunkervalladolid.com/";	
 //$WEBROOTSEGURO = "https://172.26.0.201/bunkervalladolid.com/";	
-$WEBROOT="http://www.bunkervalladolid.es/";	
-$WEBROOTSEGURO="https://www.bunkervalladolid.es/";	
+// Modificado en local ----------------------------------------------------
+//$WEBROOT="http://www.bunkervalladolid.es/";	
+//$WEBROOTSEGURO="https://www.bunkervalladolid.es/";	
 
 //define('WEBPATH', '/var/www/html/bunkervalladolid.com/');
-define('WEBPATH', '/var/www/vhosts/bunkervalladolid.es/httpdocs/');
+//define('WEBPATH', '/var/www/vhosts/bunkervalladolid.es/httpdocs/');
 
 define('METAFINAL', " - The Bunker Escape Room");
 
