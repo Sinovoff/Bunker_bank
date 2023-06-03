@@ -101,7 +101,7 @@
 
         <!-- Footer Wrapper -->
         <div id="footer-wrapper">
-			<?//****** footer ********
+			<?php//****** footer ********
 			include("footer.php");
 			//***********************?>
 		</div>

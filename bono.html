@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Wide Angle by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+<head>
+    <title>Bono-Promo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<script type="text/javascript">
+    function validar1() {
+        var elcbox = document.getElementById('terminos1');
+        if (elcbox.checked == false) {
+            alert('debe aceptar los términos');
+            return false;
+        } else {
+            var campo = document.getElementById('email').value;
+            emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+            if (!emailRegex.test(campo)) {
+                alert(campo + ' no es un correo válido');
+                return false;
+            } else {
+                var nombre = document.getElementById('name1').value;
+                if (nombre == "") {
+                    alert('Hay que rellenar todos los campos');
+                    return false;
+                }
+            }
+        }
+    }
+
+    function validar2() {
+        var elcbox = document.getElementById('terminos2');
+        if (elcbox.checked == false) {
+            alert('debe aceptar los términos');
+            return false;
+        } else {
+            var campo = document.getElementById('email2').value;
+            emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+            if (!emailRegex.test(campo)) {
+                alert(campo + ' no es un correo válido');
+                return false;
+            } else {
+                var nombre2 = document.getElementById('name2').value;
+                var nombre3 = document.getElementById('name3').value;
+                if (nombre2 == "" || nombre3 == "") {
+                    alert('Hay que rellenar todos los campos');
+                    return false;
+                }
+            }
+
+        }
+    }
+</script>
+
+<style>
+    #nota {
+        color: #777777;
+        font-size: 80%;
+    }
+</style>
+
+<body class="no-sidebar">
+    <div id="page-wrapper">
+
+        <!-- Header Wrapper -->
+        <div id="header-wrapper">
+
+            <!-- Header -->
+            <div id="header" class="container">
+
+                <!-- Logo -->
+                <h1 id="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" width="100%"></a>
+                </h1>
+
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="inicio.html">Inicio</a></li>
+                        <li><a href="vip.html">Sala de Eventos</a></li>
+                        <li class="break"><a href="reserva.html">Reservas</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <!-- Main Wrapper -->
+        <div id="main-wrapper">
+
+            <!-- Wide Content -->
+            <section id="content" class="container">
+                <header>
+                    <h2>PROMOCIÓN ESPECIAL INAUGURACIÓN</h2>
+                </header>
+                <p>Nuestro juego aún no está listo, pero si nos dejas tu e-mail, cuando inauguremos te mandaremos un bono descuento de 10 € canjeable durante los dos primeros meses de nuestra apertura.</p>
+                <div class="actions">
+                    <form action="validar.php" method="post" onsubmit="return validar1();">
+                        <p><input name="name1" id="name1" placeholder="Escribe tu nombre" size="60" type="text">
+                        </p>
+                        <p><input name="email" id="email" placeholder="Escribe tu e-mail" size="60" type="text">
+
+                        </p>
+                        <div id="nota">
+                            <p style="line-height:1.5em">The Bunker S.L. cumple con las directrices de la Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal, el Real Decreto 1720/2007 de 21 de diciembre por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica y demás normativa vigente en cada momento, y vela por garantizar un correcto uso y tratamiento de los datos personales del usuario. Para ello, junto a cada formulario de recabo de datos de carácter personal, en los servicios que el usuario pueda solicitar a info@bunkervalladolid.es, hará saber al usuario de la existencia y aceptación de las condiciones particulares del tratamiento de sus datos en cada caso, informándole de la responsabilidad del fichero creado, la dirección del responsable, la posibilidad de ejercer sus derechos de acceso, rectificación, cancelación u oposición, la finalidad del tratamiento y las comunicaciones de datos a terceros en su caso.<br> Asimismo, The Bunker S.L. informa que da cumplimiento a la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y el Comercio Electrónico y le solicitará su consentimiento al tratamiento de su correo electrónico con fines comerciales en cada momento.</p>
+                            <p> <input type="checkbox" name="terminos1" id="terminos1" value="ok" />He leído y acepto.<br />
+                            </p>
+                        </div>
+                        <input style="border: 0px solid #000;" type="submit" class="button button-big" value="Enviar" />
+                    </form>
+                </div>
+
+                <header>
+                    <p><br></p>
+                    <h2>BONO REGALO</h2>
+                </header>
+                <p>Si quieres hacer un regalo original y diferente sorpréndeles con una experiencia de Escape en nuestro BUNKER. Indícanos tu mail y el nombre de la persona a la que se lo quieres regalar y te mandaremos un bono para canjear en 6 meses.</p>
+                <div class="actions">
+                    <form action="validar1.php" method="post" onsubmit="return validar2();">
+                        <p><input name="name2" id="name2" placeholder="Escribe tu nombre" size="60" type="text">
+                        </p>
+                        <p><input name="name3" id="name3" placeholder="Escribe el nombre del destinatario" size="60" type="text">
+                        </p>
+                        <p><input name="email2" id="email2" placeholder="Escribe tu e-mail" size="60" type="text">
+                        </p>
+                        <div id="nota">
+                            <p style="line-height:1.5em">The Bunker S.L. cumple con las directrices de la Ley Orgánica 15/1999 de 13 de diciembre de Protección de Datos de Carácter Personal, el Real Decreto 1720/2007 de 21 de diciembre por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica y demás normativa vigente en cada momento, y vela por garantizar un correcto uso y tratamiento de los datos personales del usuario. Para ello, junto a cada formulario de recabo de datos de carácter personal, en los servicios que el usuario pueda solicitar a info@bunkervalladolid.es, hará saber al usuario de la existencia y aceptación de las condiciones particulares del tratamiento de sus datos en cada caso, informándole de la responsabilidad del fichero creado, la dirección del responsable, la posibilidad de ejercer sus derechos de acceso, rectificación, cancelación u oposición, la finalidad del tratamiento y las comunicaciones de datos a terceros en su caso.<br> Asimismo, The Bunker S.L. informa que da cumplimiento a la Ley 34/2002 de 11 de julio, de Servicios de la Sociedad de la Información y el Comercio Electrónico y le solicitará su consentimiento al tratamiento de su correo electrónico con fines comerciales en cada momento.</p>
+                            <p> <input type="checkbox" name="terminos2" id="terminos2" value="ok" />He leído y acepto.<br />
+                            </p>
+                        </div>
+                        <input style="border: 0px solid #000;" type="submit" class="button button-big" value="Enviar" />
+                    </form>
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Footer Wrapper -->
+        <div id="footer-wrapper">
+
+            <!-- Footer -->
+            <div id="footer" class="container">
+                <p>Para cualquier duda ponte en contacto con nosotros.</p>
+                <header>
+                    <h2>Escape Room "The Bunker"</h2>
+                </header>
+                <p>C/ Esquila, 19 - 47012 Valladolid - <a href="mailto:info@bunkervalladolid.es">info@bunkervalladolid.es</a></p>
+                <ul class="contact">
+                    <li><a href="https://www.instagram.com/bunkerescape/?hl=es" target="_blank" class="icon fa-instagram"><span>Instagram</span></a></li>
+                    <li><a href="https://www.facebook.com/bunkervalladolid/" target="_blank" class="icon fa-facebook"><span>Facebook</span></a></li>
+                    <li><a href="https://twitter.com/BUNKERVALLADOLI" target="_blank" class="icon fa-twitter"><span>Twitter</span></a></li>
+                </ul>
+            </div>
+
+            <!-- Copyright -->
+            <div id="copyright" class="container">
+                &copy; The Bunker. All rights reserved.
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/skel-viewport.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #444;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #afafaf;
+	height: 100%;
+	line-height: 28px;*/
+}
+body {
+	font-size: 14px;
+	line-height: 1.35em;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	color: #afafaf;
+}
+input, select, textarea, button {
+	font-size: 14px;
+	line-height: 1.35em;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	color: #afafaf;
+}
+body P{
+	line-height: 18px;
+	margin-bottom: 10px;
+	padding-left:10px;
+}
+body a{
+	color: #444;
+	text-decoration: underline;
+	outline: none;
+}
+body a:hover{
+	color: #72015f;
+	text-decoration: underline;
+}
+body ul{
+	margin: 1em;
+	list-style:none;
+	padding: 0px;
+}
+body ul li{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	/*background: url(/cbvalladolid.com/images/iconos/iconoticias.gif) no-repeat left 5px;*/
+}
+.fleftMargin{
+	float: left;
+	margin: 10px 10px 10px 0px;
+}
+.frightMargin{
+	float: right;
+	margin: 10px 0px 10px 10px;
+}

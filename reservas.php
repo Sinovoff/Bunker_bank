@@ -159,7 +159,9 @@
                 	</section>
 				</div>
 			</div>	
-			
+			<div class="actions">
+				<a href="info.html" class="button button-big button-alt">Saber más (FAQ)</a>
+			</div>
 		</div>
 
 		<!-- Footer Wrapper -->

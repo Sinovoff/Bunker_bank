@@ -25,9 +25,11 @@
 			<!-- Header -->
 			<div id="header" class="container">
 
-				<?//*** Menu superior ***
+				<?php
+				//*** Menu superior ***
 				include("menu-superior.php");
-				//***********************?>
+				//***********************
+				?>
 
 			</div>
 

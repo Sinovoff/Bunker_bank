@@ -1,4 +1,4 @@
-<?require_once("init.php");?>
+
 
 <!-- Logo -->
 <h1 id="logo"><a href="inicio.php"><img src="images/logo.png" alt="Logo" width="100%"></a></h1>

@@ -1,4 +1,5 @@
-<?require_once("init.php");
+<?php
+require_once("init.php");
 
 if ($_POST['OK']=="1"){
 	function random_string($length) {
@@ -124,7 +125,8 @@ if ($_POST['OK']=="1"){
 		<script language="JavaScript">
 			window.document.location.href='<?echo $WEBROOT?>reserva-gracias.php?ref=<?echo $idencriptado?>';
 		</script>
-	<?}
+	<? 
+	}
 }else{
 	echo "Error";
 }

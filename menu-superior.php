@@ -1,7 +1,9 @@
-<?require_once("init.php");?>
+<?php
+require_once("init.php");
+?>
 
 <!-- Logo -->
-<h1 id="logo"><a href="<?echo $WEBROOTSEGURO?>inicio.php"><img src="images/logo.png" alt="Logo" width="100%"></a></h1>
+<h1 id="logo"><a href="<inicio.php"><img src="images/logo.png" alt="Logo" width="100%"></a></h1>
 
 <!-- Nav -->
 <nav id="nav">

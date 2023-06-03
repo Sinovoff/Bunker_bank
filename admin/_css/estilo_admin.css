@@ -1,0 +1,269 @@
+.clear{
+	clear: both;
+}
+body {
+	font-size: 13px;
+	padding-top: 70px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 60px;
+  color: #0088cc;
+  background:#d5e3ec;
+}
+textarea {
+  font-size: 13px;
+}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	font-size: 13px;
+}
+.btn {
+	font-size: 13px;
+}
+.clasetexttarea{
+	padding-left: 170px;
+}
+.table tbody tr .text-center {
+  text-align: center;
+}
+.table tbody tr .text-left {
+  text-align: left;
+}
+.table tbody tr .text-right {
+  text-align: right;
+}
+.table thead th {
+  background-color: #c1d5e3;
+  text-align: center;
+}
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #e0f5fe;
+}
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+  background-color: #c7defa;
+}
+.table th.sortedASC {
+	background:#c1d5e3 url(../images/icono-asc.gif) no-repeat 2px 13px;
+	padding-left:10px;
+}
+.table th.sortedDESC {
+	background:#c1d5e3 url(../images/icono-desc.gif) no-repeat 2px 13px;
+	padding-left:10px;
+}
+.btn-large {
+  font-size: 15px;
+  text-decoration: none;
+}
+.form-actions {
+  background-color: #fff;
+}
+.cleardiv {
+  clear: both;
+}
+.input-xmini {
+  width: 20px;
+}
+.input-xxxlarge {
+  width: 650px;
+}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+	background-color: #c7defa;
+}
+.panel-primary > .panel-heading{
+	background-color: #c1d5e3;
+	color:#0e76a9;
+}
+.panel-info > .panel-heading{
+	background-color: #d0dfea;
+	color:#0e76a9;
+}
+.controls .spanfecha {
+  width: 85px;
+}
+.spantextoEditar {
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.table td.col-md-1,
+.table th.col-md-1 {
+	width: 40px;
+}
+.table td.col-md-2,
+.table th.col-md-2 {
+	width: 50px;
+}
+.table td.col-md-3,
+.table th.col-md-3 {
+	width: 80px;
+}
+.table td.col-md-4,
+.table th.col-md-4 {
+	width: 100px;
+}
+.table td.col-md-5,
+.table th.col-md-5 {
+	width: 120px;
+}
+.table td.col-md-6,
+.table th.col-md-6 {
+	width: 200px;
+}
+.table td.col-md-7,
+.table th.col-md-7 {
+	width: 310px;
+}
+.table td.col-md-8,
+.table th.col-md-8 {
+	width: 410px;
+}
+.azul{
+	color: #0e76a9;
+}
+.verde{
+	color: #39b80a;
+}
+.rojo{
+	color: #F60D0D;
+}
+.naranja{
+	color: #fba215;
+}
+.naranjaoscuro{
+	color: #ff8000;
+}
+.azulverdoso{
+	color: #1dc5a3;
+}
+.morado{
+	color: #bd15fb;
+}
+#enviarEmails .modal-header, 
+#enviarEmailsPrueba .modal-header, 
+#anadirImagenEtiqueta .modal-header, 
+#anadirVideoEtiqueta .modal-header{
+	background-color:#c1d5e3;
+	color:#0e76a9;
+}
+.tituloDetalle{
+	margin-left:230px;
+	background-color:#e9bc78;
+	width:660px;
+	font-size:14px;
+	padding-left:10px;
+}
+#progressbox, #progressboxaudio {
+	border: 1px solid #0099CC;
+	padding: 1px;
+	position:relative;
+	width:630px;
+	border-radius: 3px;
+	margin: 10px;
+	display:none;
+	text-align:left;
+}
+#progressbar, #progressbaraudio {
+	height:20px;
+	border-radius: 3px;
+	background-color: #3c8c39;
+	width:1%;
+}
+#statustxt , #statustxtaudio{
+	top:3px;
+	left:50%;
+	position:absolute;
+	display:inline-block;
+	color: #000000;
+}
+.mtop20{
+	margin-top: 20px;
+}
+.img-responsive{
+	padding: 4px;
+	border: 1px solid #535154;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	display: inherit;/*Para que salga centrado*/
+}
+#myTab > li.active > a {
+  background-color: #428bca;
+  color: #fff;
+}
+
+/*Calendario*/
+.input-append{
+	padding-left:0;
+	padding-right:5px;
+}
+.radiocheck{
+	padding-left:0;
+	padding-right:5px;
+}
+.mtop5{margin-top:5px}
+.mtop10{margin-top:10px}
+.mtop20{margin-top:20px}
+.mtop30{margin-top:30px}
+
+/************************/
+/** Imagenes multiples **/
+/************************/
+.cajaimagenes{
+	 border: 1px solid #dcdcdc;
+	 padding:10px;
+	 /*height:330px;*/
+	 height:210px;
+}
+.cajaarchivos{
+	 border: 1px solid #dcdcdc;
+	 padding:10px;
+	 height:210px;
+}
+.clasecabecera{
+	 background: #c1d5e3;
+	 height:30px;
+	 margin-bottom:5px;
+	 margin-top:-10px;
+	 margin-left:-10px;
+	 margin-right:-10px;
+}
+.clasetitulo, .clasepie{
+	 height:50px;
+}
+.claseeliminar{
+	text-align:right;
+	padding-right:20px;
+	padding-top:5px;
+}
+.claseorden{
+	padding-left:25px;
+	padding-top:7px;
+}
+.mensajeordenar{
+	font-size:11px;
+	font-style: italic;
+}
+.migaadmin{
+	border:1px #c1d5e3 solid;
+	padding:5px;
+	border-radius: 5px;
+	margin-bottom:0;
+}

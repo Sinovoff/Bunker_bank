@@ -166,9 +166,10 @@
 			<!-- Footer Wrapper -->
 				<div id="footer-wrapper">
 
-					  <?//*** Menu superior ***
+					<?php//*** Menu superior ***
 					include("footer.php");
-					//***********************?>
+					//***********************
+					?>
 
 
 				</div>
